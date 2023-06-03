@@ -10,7 +10,7 @@ class Vehicle {
   class Sedan extends Vehicle{
     constructor(model, backupCamera){
         super(model)
-        this.model = model;
+
         this.backupCamera = backupCamera;
     }
     drive(){
